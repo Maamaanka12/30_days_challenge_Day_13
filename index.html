@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="SÉRIE is a hair atelier in London for considered cuts, dimensional colour and unhurried styling.">
+  <title>SÉRIE — Hair Atelier</title>
+
+  <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+
+  <!-- Announcement -->
+  <div class="announce">
+    <span>Complimentary consultation with every colour service this month</span>
+    <a href="#contact">Claim your seat <span aria-hidden="true">&rarr;</span></a>
+  </div>
+
+  <!-- Header -->
+  <header class="site-header" id="siteHeader">
+    <a class="brand" href="#home" aria-label="SÉRIE home">
+      <span class="brand-name">SÉRIE</span>
+      <span class="brand-sub">Hair Atelier</span>
+    </a>
+
+    <nav class="nav" id="mainNav" aria-label="Main navigation">
+      <a href="#home" class="nav-link is-active">Home</a>
+      <a href="#services" class="nav-link">Services</a>
+      <a href="#gallery" class="nav-link">Gallery</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+
+    <a href="#contact" class="btn btn-header">Book a visit</a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false" aria-controls="mainNav">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <main>
+    <!-- HOME / HERO -->
+    <section class="hero" id="home">
+      <div class="hero-grain" aria-hidden="true"></div>
+
+      <!-- signature strand -->
+      <svg class="strand strand-hero" viewBox="0 0 1000 700" fill="none" preserveAspectRatio="none" aria-hidden="true">
+        <path d="M-80 520 C 220 520, 260 120, 520 150 C 780 180, 760 610, 1080 470" />
+      </svg>
+
+      <div class="hero-inner">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span class="eyebrow-line"></span> 01 — London Hair Atelier</p>
+          <h1 class="display">Hair, <em>considered.</em></h1>
+          <p class="hero-lead">A quiet studio for precise cuts, dimensional colour and the kind of styling that stays with you long after you leave the chair.</p>
+          <div class="hero-actions">
+            <a href="#services" class="btn btn-primary">Explore services <span aria-hidden="true">&rarr;</span></a>
+            <a href="#gallery" class="link-arrow">See our work <span aria-hidden="true">&#8599;</span></a>
+          </div>
+          <dl class="hero-meta">
+            <div><dt>Est.</dt><dd>2016</dd></div>
+            <div><dt>Location</dt><dd>South Kensington</dd></div>
+            <div><dt>Rated</dt><dd>4.9 / 5</dd></div>
+          </dl>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="media media-hero">
+            <img src="img/hero-salon.jpg" alt="The light-filled interior of the SÉRIE atelier" loading="eager">
+          </div>
+          <div class="media media-inset">
+            <img src="img/hero-stylist.jpg" alt="A stylist at work with a client" loading="lazy">
+          </div>
+          <div class="stamp" aria-hidden="true">
+            <span>14</span>
+            <small>YEARS OF CRAFT</small>
+          </div>
+          <div class="floating-note">
+            <span class="note-index">01</span>
+            <p><strong>The SÉRIE consult.</strong><br>Forty-five minutes. No rush, no judgement.</p>
+          </div>
+        </div>
+      </div>
+
+      <a href="#services" class="scroll-cue" aria-label="Scroll to services">
+        <span>Scroll</span><span class="scroll-line"></span>
+      </a>
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>Cut <i>&#10041;</i> Colour <i>&#10041;</i> Texture <i>&#10041;</i> Ritual <i>&#10041;</i> Style <i>&#10041;</i> </span>
+        <span>Cut <i>&#10041;</i> Colour <i>&#10041;</i> Texture <i>&#10041;</i> Ritual <i>&#10041;</i> Style <i>&#10041;</i> </span>
+      </div>
+    </div>
+
+    <!-- SERVICES -->
+    <section class="section services" id="services">
+      <div class="section-head reveal">
+        <div>
+          <p class="eyebrow"><span class="eyebrow-line"></span> 02 — What we do</p>
+          <h2 class="display">The craft, <em>unhurried.</em></h2>
+        </div>
+        <p class="section-intro">Every appointment begins with a conversation. We look at your hair, your routine and the version of yourself you want to meet in the mirror.</p>
+      </div>
+
+      <div class="service-list">
+        <article class="service-row reveal">
+          <span class="row-num">01</span>
+          <div class="row-body">
+            <h3>The Signature Cut</h3>
+            <p>Precision cutting shaped to your bone structure and the way you actually wear your hair — not the way a photograph tells you to.</p>
+          </div>
+          <div class="media media-thumb"><img src="img/service-cut.jpg" alt="A stylist cutting a client's hair" loading="lazy"></div>
+          <span class="row-price">from £68</span>
+        </article>
+
+        <article class="service-row reveal">
+          <span class="row-num">02</span>
+          <div class="row-body">
+            <h3>Dimensional Colour</h3>
+            <p>Balayage, foils and glosses built for depth and movement that grows out softly instead of announcing itself at the roots.</p>
+          </div>
+          <div class="media media-thumb"><img src="img/service-colour.jpg" alt="A stylist applying hair colour" loading="lazy"></div>
+          <span class="row-price">from £120</span>
+        </article>
+
+        <article class="service-row reveal">
+          <span class="row-num">03</span>
+          <div class="row-body">
+            <h3>Texture &amp; Repair</h3>
+            <p>Bond-building treatments, glossing rituals and soft perms that bring bounce and strength back to tired, over-worked hair.</p>
+          </div>
+          <div class="media media-thumb"><img src="img/service-texture.jpg" alt="Healthy, glossy hair" loading="lazy"></div>
+          <span class="row-price">from £85</span>
+        </article>
+
+        <article class="service-row reveal">
+          <span class="row-num">04</span>
+          <div class="row-body">
+            <h3>The Occasion</h3>
+            <p>Event styling, blow-dries and those small finishing details that make an entrance feel effortless rather than rehearsed.</p>
+          </div>
+          <div class="media media-thumb"><img src="img/service-occasion.jpg" alt="Event hair styling with a blow-dryer" loading="lazy"></div>
+          <span class="row-price">from £55</span>
+        </article>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section class="section gallery" id="gallery">
+      <div class="section-head reveal">
+        <div>
+          <p class="eyebrow"><span class="eyebrow-line"></span> 03 — Our work</p>
+          <h2 class="display">Notes from <em>the chair.</em></h2>
+        </div>
+        <p class="section-intro">No preset filters, no before-and-after theatre. Just a small selection of work we were quietly proud of the day we finished it.</p>
+      </div>
+
+      <div class="gallery-grid">
+        <figure class="gallery-item gallery-a reveal">
+          <div class="media"><img src="img/gallery-balayage.jpg" alt="Soft pink balayage hair" loading="lazy"></div>
+          <figcaption><span>01</span> Soft pink balayage</figcaption>
+        </figure>
+        <figure class="gallery-item gallery-b reveal">
+          <div class="media"><img src="img/gallery-blonde.jpg" alt="Wavy blonde hair" loading="lazy"></div>
+          <figcaption><span>02</span> Blonde, undone</figcaption>
+        </figure>
+        <figure class="gallery-item gallery-c reveal">
+          <div class="media"><img src="img/gallery-ombre-curls.jpg" alt="Ombre curly hair" loading="lazy"></div>
+          <figcaption><span>03</span> Ombre curls</figcaption>
+        </figure>
+        <figure class="gallery-item gallery-d reveal">
+          <div class="media"><img src="img/gallery-brunette.jpg" alt="Long brunette hair" loading="lazy"></div>
+          <figcaption><span>04</span> Long brunette</figcaption>
+        </figure>
+        <figure class="gallery-item gallery-e reveal">
+          <div class="media"><img src="img/gallery-curl-definition.jpg" alt="Curly ombre hair in the salon" loading="lazy"></div>
+          <figcaption><span>05</span> Curl definition</figcaption>
+        </figure>
+        <figure class="gallery-item gallery-f reveal">
+          <div class="media"><img src="img/gallery-salon-waves.jpg" alt="Wavy brunette hair in the salon" loading="lazy"></div>
+          <figcaption><span>06</span> Salon waves</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- QUOTE -->
+    <section class="quote-band">
+      <svg class="strand strand-quote" viewBox="0 0 1200 400" fill="none" preserveAspectRatio="none" aria-hidden="true">
+        <path d="M-60 300 C 260 300, 320 60, 620 110 C 900 155, 940 330, 1260 180" />
+      </svg>
+      <div class="quote-inner reveal">
+        <span class="quote-mark" aria-hidden="true">“</span>
+        <blockquote>Good hair isn't a look. It's a feeling you carry into the room.</blockquote>
+        <p class="quote-by">— The SÉRIE team</p>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact" id="contact">
+      <div class="section-head reveal">
+        <div>
+          <p class="eyebrow"><span class="eyebrow-line"></span> 04 — Say hello</p>
+          <h2 class="display">Your chair <em>is waiting.</em></h2>
+        </div>
+        <p class="section-intro">Tell us a little about your hair and what you have in mind. We'll get back to you within one working day to find a time that suits.</p>
+      </div>
+
+      <div class="contact-grid">
+        <form class="booking-form reveal" id="bookingForm" novalidate>
+          <div class="field">
+            <label for="name">Your name</label>
+            <input type="text" id="name" name="name" placeholder="e.g. Amelia Hart" autocomplete="name">
+            <span class="error" id="nameError" aria-live="polite"></span>
+          </div>
+          <div class="field">
+            <label for="email">Email address</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" autocomplete="email">
+            <span class="error" id="emailError" aria-live="polite"></span>
+          </div>
+          <div class="field">
+            <label for="service">Service you're after</label>
+            <select id="service" name="service">
+              <option value="">Choose a service</option>
+              <option>The Signature Cut</option>
+              <option>Dimensional Colour</option>
+              <option>Texture &amp; Repair</option>
+              <option>The Occasion</option>
+              <option>Not sure yet</option>
+            </select>
+            <span class="error" id="serviceError" aria-live="polite"></span>
+          </div>
+          <div class="field">
+            <label for="message">Anything we should know?</label>
+            <textarea id="message" name="message" rows="4" placeholder="Your hair history, inspiration, or a question..."></textarea>
+            <span class="error" id="messageError" aria-live="polite"></span>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">Send request <span aria-hidden="true">&rarr;</span></button>
+          <p class="form-note">We only use these details to reply to your enquiry.</p>
+        </form>
+
+        <aside class="contact-info reveal">
+          <h3>Find us</h3>
+          <div class="info-block">
+            <span class="info-label">Visit</span>
+            <p>18a Gloucester Road<br>South Kensington, London<br>SW7 4QY</p>
+          </div>
+          <div class="info-block">
+            <span class="info-label">Hours</span>
+            <p>Mon – Fri &nbsp; 9:00 – 19:00<br>Saturday &nbsp; 9:00 – 18:00<br>Sunday &nbsp; by appointment</p>
+          </div>
+          <div class="info-block">
+            <span class="info-label">Call</span>
+            <p><a href="tel:+442079460184">+44 20 7946 0184</a></p>
+          </div>
+          <div class="info-block">
+            <span class="info-label">Follow</span>
+            <div class="socials">
+              <a href="#" aria-label="Instagram">Instagram</a>
+              <a href="#" aria-label="Pinterest">Pinterest</a>
+              <a href="#" aria-label="TikTok">TikTok</a>
+            </div>
+          </div>
+          <div class="info-mark" aria-hidden="true">S</div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-top">
+      <a class="brand brand-footer" href="#home">
+        <span class="brand-name">SÉRIE</span>
+        <span class="brand-sub">Hair Atelier</span>
+      </a>
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; <span id="year">2026</span> SÉRIE Hair Atelier. Made with care in London.</p>
+      <a href="#home">Back to top &uarr;</a>
+    </div>
+  </footer>
+
+  <!-- Success toast -->
+  <div class="toast" id="toast" role="status" aria-live="polite">
+    <span class="toast-dot"></span>
+    <p><strong>Request received.</strong> Thank you — we'll be in touch within one working day.</p>
+    <button id="toastClose" aria-label="Dismiss">&times;</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
